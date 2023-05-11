@@ -16,7 +16,6 @@ app.get('/', (req, res) => {
 })
 
 app.use('/task1.htm', require('./routes/task1Route'));
-app.use('/task3.htm', require('./routes/task3Route'));
 app.use('/task4.htm', require('./routes/task4Route'));
 
 
